@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'oxanium', cursive;
+    border-radius: 22px;
 }
 
 main{
@@ -35,8 +36,8 @@ body{
     position: absolute;
     font-weight: 600;
     color: #000000;
-    top: 72.6%;
-    right: 35%;
+    top: 78.8%;
+    right: 29%;
     font-size: clamp(8px, 5vw, 20px);
 }
 
@@ -44,3 +45,30 @@ body{
     color: rgb(0, 0, 0);
     text-transform: capitalize;
 }
+
+.form{
+    position: absolute;
+    width: 82%;
+    top: 73.7%;
+    left: 8.9%;
+}
+
+.input__serch{
+    width: 100%;
+    padding: 1%;
+    outline: none;
+    border: 1px solid black;
+    border-radius: 100px;
+    font-weight: 600;
+    color: #3a444d;
+    font-size: clamp(2px, 5vw, 0.60rem);
+    
+}
+
+.buttons{
+    position: absolute;
+    bottom: 12%;
+    left: 11%;
+}
+
+
